@@ -187,3 +187,8 @@ sup { line-height: 0; }
 .maze-toc > ol > li { break-inside: avoid; font-weight: bold; margin-bottom: .45rem; }
 .maze-toc > ol > li li { font-weight: normal; }
 @media (max-width: 640px) { .maze-toc > ol { columns: 1; } }
+
+/* Optional Classes OGL disclosure */
+.source-details > summary { cursor: pointer; border: 1px solid #c7bda9; background: #fff; padding: .65rem .85rem; font-weight: bold; }
+.source-details[open] > summary { border-bottom: 0; }
+.source-details .ogl-text { margin-top: 0; }
