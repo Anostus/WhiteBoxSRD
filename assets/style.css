@@ -169,3 +169,21 @@ sup { line-height: 0; }
 .subcategory-index-table td:nth-child(3) {
   white-space: nowrap;
 }
+
+
+/* Maze Rats roll table controls */
+.maze-tables-nav ul { display:flex; flex-wrap:wrap; gap:.35rem .9rem; margin:.45rem 0 0; padding-left:1.2rem; }
+.roll-tools { display:flex; flex-wrap:wrap; gap:.65rem; align-items:center; margin:.65rem 0 .25rem; }
+.roll-button { border:1px solid #9d907c; border-radius:4px; background:#fff; color:var(--ink); padding:.35rem .65rem; font-family:inherit; font-weight:bold; cursor:pointer; }
+.roll-button:hover, .roll-button:focus { border-color:var(--accent); color:var(--accent); }
+.roll-output { font-weight:bold; color:var(--accent); }
+.roll-reference { color:var(--muted); font-size:.92em; font-weight:normal; }
+.maze-roll-table h3 { margin-top:0; }
+
+/* Complete Maze Rats table of contents */
+.maze-toc > ol { columns: 2 280px; margin: .55rem 0 0; padding-left: 1.35rem; }
+.maze-toc ol ol { break-inside: avoid; margin: .3rem 0 .65rem; padding-left: 1.15rem; }
+.maze-toc li { margin: .15rem 0; }
+.maze-toc > ol > li { break-inside: avoid; font-weight: bold; margin-bottom: .45rem; }
+.maze-toc > ol > li li { font-weight: normal; }
+@media (max-width: 640px) { .maze-toc > ol { columns: 1; } }

@@ -56,4 +56,60 @@
     if(sourceConverted) sourceConverted.addEventListener('change', applyMonsterFilters);
     applyMonsterFilters();
   }
+
+  // Maze Rats automatic table rollers.
+  function rollDie(){ return Math.floor(Math.random() * 6) + 1; }
+  function cellText(cell){ return (cell ? cell.textContent : '').replace(/\s+/g, ' ').trim(); }
+  function rollMatches(label, value){
+    label = (label || '').trim();
+    if(label === String(value)) return true;
+    var range = label.match(/^(\d+)\s*-\s*(\d+)$/);
+    if(range){
+      var lo = parseInt(range[1], 10), hi = parseInt(range[2], 10);
+      return value >= lo && value <= hi;
+    }
+    return false;
+  }
+  function findRowByRoll(table, value){
+    var rows = Array.prototype.slice.call(table.querySelectorAll('tbody tr'));
+    for(var i = 0; i < rows.length; i++){
+      var first = rows[i].querySelector('td');
+      if(first && rollMatches(cellText(first), value)) return rows[i];
+    }
+    return null;
+  }
+  function resultFromRow(row){
+    if(!row) return '';
+    var cells = Array.prototype.slice.call(row.querySelectorAll('td')).slice(1);
+    return cells.map(cellText).filter(Boolean).join(' — ');
+  }
+  document.querySelectorAll('button[data-roll-table]').forEach(function(button){
+    if(button.__wbRollBound) return;
+    button.__wbRollBound = true;
+    button.addEventListener('click', function(){
+      var table = document.getElementById(button.getAttribute('data-roll-table'));
+      if(!table) return;
+      var type = button.getAttribute('data-roll-type') || table.getAttribute('data-roll-type') || '2d6';
+      var output = button.parentNode ? button.parentNode.querySelector('.roll-output') : null;
+      var message = '';
+      if(type === 'spell-formula'){
+        var d1 = rollDie(), d2 = rollDie();
+        var row = findRowByRoll(table, d1);
+        var cells = row ? Array.prototype.slice.call(row.querySelectorAll('td')) : [];
+        var result = cellText(cells[d2 <= 3 ? 1 : 2]);
+        message = 'Roll ' + d1 + ', ' + d2 + ': ' + result;
+      } else if(type === '1d6'){
+        var one = rollDie();
+        var row1 = findRowByRoll(table, one);
+        message = 'Roll ' + one + ': ' + resultFromRow(row1);
+      } else {
+        var a = rollDie(), b = rollDie();
+        var key = String(a) + String(b);
+        var row2 = findRowByRoll(table, key);
+        message = 'Roll ' + a + ', ' + b + ' (' + key + '): ' + resultFromRow(row2);
+      }
+      if(output) output.textContent = message;
+    });
+  });
+
 })();
