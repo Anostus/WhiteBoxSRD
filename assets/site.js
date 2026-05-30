@@ -18,6 +18,7 @@
   var monsterFilter = document.querySelector('#monster-filter');
   var sourceCore = document.querySelector('#monster-source-core');
   var sourceConverted = document.querySelector('#monster-source-converted');
+  var monsterHasImage = document.querySelector('#monster-has-image');
   if(monsterFilter){
     var rows = Array.prototype.slice.call(document.querySelectorAll('tr[data-monster-name]'));
     var letterRows = Array.prototype.slice.call(document.querySelectorAll('tr.letter-row'));
@@ -46,7 +47,8 @@
         var source = row.getAttribute('data-monster-source') || (name.indexOf('converted') !== -1 ? 'converted' : 'core');
         var sourceOK = (source === 'core' && showCore) || (source === 'converted' && showConverted);
         var textOK = !q || name.indexOf(q) !== -1;
-        row.style.display = sourceOK && textOK ? '' : 'none';
+        var imageOK = !monsterHasImage || !monsterHasImage.checked || row.getAttribute('data-monster-image') === 'true';
+        row.style.display = sourceOK && textOK && imageOK ? '' : 'none';
       });
       updateLetterRows();
     }
@@ -54,6 +56,7 @@
     monsterFilter.addEventListener('input', applyMonsterFilters);
     if(sourceCore) sourceCore.addEventListener('change', applyMonsterFilters);
     if(sourceConverted) sourceConverted.addEventListener('change', applyMonsterFilters);
+    if(monsterHasImage) monsterHasImage.addEventListener('change', applyMonsterFilters);
     applyMonsterFilters();
   }
 

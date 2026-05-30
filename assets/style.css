@@ -195,3 +195,81 @@ sup { line-height: 0; }
 .source-details > summary { cursor: pointer; border: 1px solid #c7bda9; background: #fff; padding: .65rem .85rem; font-weight: bold; }
 .source-details[open] > summary { border-bottom: 0; }
 .source-details .ogl-text { margin-top: 0; }
+
+
+/* Maze Rats explanations added to the tables page */
+.maze-explanation {
+  margin: 1rem 0 1.35rem;
+  padding: .85rem 1rem;
+  border: 1px solid #c7bda9;
+  border-left: 4px solid var(--accent);
+  background: #fffaf0;
+  border-radius: 4px;
+}
+.maze-explanation h2,
+.maze-explanation h3,
+.maze-explanation h4 {
+  margin-top: 0;
+}
+.maze-explanation ul {
+  margin: .45rem 0 .2rem;
+  padding-left: 1.25rem;
+}
+.maze-explanation li {
+  margin: .2rem 0;
+}
+
+/* Woodcut and fairy-tale art accents */
+.woodcut-figure {
+  margin: .35rem 0 1.1rem;
+  padding: .45rem;
+  border: 1px solid #c7bda9;
+  background: #fffaf0;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(70, 46, 24, .08);
+}
+.woodcut-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #f4ead9;
+  filter: sepia(.14) contrast(1.04);
+}
+.woodcut-figure figcaption {
+  margin-top: .4rem;
+  color: var(--muted);
+  font-size: .82rem;
+  line-height: 1.35;
+}
+.woodcut-figure figcaption a { font-weight: bold; }
+.woodcut-right {
+  float: right;
+  width: min(32%, 295px);
+  margin: .1rem 0 1rem 1.2rem;
+}
+.woodcut-class { width: min(34%, 310px); }
+.woodcut-optional { width: min(38%, 360px); }
+.woodcut-monster { width: min(34%, 300px); }
+.woodcut-race { width: min(35%, 320px); }
+.woodcut-chapter { width: min(33%, 320px); }
+.with-woodcut::after,
+.content::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+@media (max-width: 760px) {
+  .woodcut-right,
+  .woodcut-class,
+  .woodcut-optional,
+  .woodcut-monster,
+  .woodcut-race,
+  .woodcut-chapter {
+    float: none;
+    width: min(100%, 420px);
+    margin: .75rem auto 1.1rem;
+  }
+}
+
+
+#monster-image-filters { align-self: stretch; }
