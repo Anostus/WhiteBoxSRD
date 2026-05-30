@@ -1365,22 +1365,6 @@
     "description": "Blink dogs are pack hunters, intelligent and usually friendly to those who are not of evil intent. They can teleport short distances (without error) and attack in the same turn—in most cases (75%) a blink dog will be able to teleport behind an opponent and attack from the rear (with bonuses)."
   },
   {
-    "name": "Blink Dog (Flicker Beast)",
-    "slug": "blink-dog-bfrpg",
-    "armor_class": "5 [14]",
-    "hit_dice": "4",
-    "attacks": "Bite (1d6)",
-    "special": "teleportation",
-    "move": "12",
-    "hde": "5",
-    "xp": "240",
-    "hde_xp": "5/240",
-    "description": "Blink dogs, also known as flicker beasts, are strange creatures which resemble wolves or hyenas who can teleport up to 120 feet at will. Teleportation is so easy for them that they can sometimes teleport away before being attacked. When one knows of the attacker's action (i.e. can see or possibly hear the attack about to happen) it is allowed a saving throw vs. Death Ray, and on a successful roll it teleports 1d6 x 10 feet in a random direction (but never into solid matter, nor into any dangerous area the creature knows about). These creatures are pack hunters, using their teleportation to confuse their prey until they are able to surround it. In this way, some members of the pack will be able to attack from behind, a trick they are so good at that they receive the same benefits as a thief: +4 to hit and double damage if the hit is successful. Blink dogs are large canines, typically light brown in color with short bristly hair; some varieties are striped or spotted. They communicate using a language of barks, growls, and yips which is somewhat limited but can convey useful tactical information. They are shy, generally avoiding a fight if possible, but they hate deceivers and will generally attack them on sight.",
-    "page": 73,
-    "source": "BFRPG conversion",
-    "source_page": 73
-  },
-  {
     "name": "Blood Rose, 2 HD",
     "slug": "blood-rose-2-hd-bfrpg",
     "armor_class": "7 [12]",
@@ -7130,21 +7114,6 @@
     "source_page": 143
   },
   {
-    "name": "Infernal, Balor",
-    "slug": "infernal-balor-bfomnibus",
-    "armor_class": "-2 [21] (m)",
-    "hit_dice": "8+8",
-    "attacks": "Attack (1d6+2)",
-    "special": "magic weapons to hit, spells, invisibility, fear, hug",
-    "move": "9 Fly 18",
-    "hde": "9",
-    "xp": "1,100",
-    "hde_xp": "9/1,100",
-    "description": "Infernal beings are monstrosities with otherworldly or extra-dimensional origins. These beings are universally vile and at odds with the powers of goodness. There are several distinct races or groups of infernal beings, generally grouped by their origin. They might be called demons, devils, or other related terms. If reduced to 0 Hit Points in the mortal world, an infernal is not destroyed but disappears in a pall of greasy black smoke and terrifying scream, banished back to its home dimension or plane. Once banished, it cannot return to the mortal world for an entire year. To truly destroy one it must be reduced to 0 Hit Points while in its home dimension.\n\nBalor are winged humanoid infernals who stand between 10 to 14 feet tall and weigh roughly 450 pounds. Their skin is generally black, veined with dark red, and they may be shroud themselves in flame at will; these flames inflicts 2d6 points of damage to anyone who touches them, or who is touched by them.\n\nBalors are usually armed with huge jagged-edged swords doing 1d12+1 points of damage and whips made of red-hot twisted barbed wire which inflict 2d6 points of damage and entangle creatures struck by them. Entangled creatures must make a saving throw vs. Death Ray to escape, and any entangled creature of ogre-size or smaller may be pulled in by the balor. A balor may attack with only one of its weapons, but if the whip is used the balor will also immolate itself (as described above), thus inflicting additional damage to entangled creatures. As they are otherworldly creatures, a balor cannot be harmed by non-magical weapons.\n\nA balor may choose to shed darkness (as the reverse of the light spell) at will in a 10-foot radius; this darkness does not affect the balor's own vision. They may also perform any of the following spell-like powers as often as desired, instead of attacking: cause fear (the reverse of the remove fear spell), detect magic, read magic, read languages, detect invisible, or telekinesis, all as if a 12th level Magic-user.\n\nOnce per day, instead of attacking, a balor may attempt to summon another infernal to its aid. Roll 1d%: on a roll of 01-55, a glabrezu (see page 150), appears; on 56-70, a nalfeshni (see page 154), is summoned; on a roll of 71-00, the attempt fails. If the summoning fails, the balor can try again as often as desired (once per round maximum) until it succeeds.\n\nWhen killed, a balor explodes in a blinding flash of light that deals 10d10 points of damage to anything within 30 feet, with a successful save vs. Death Ray reducing damage by half.",
-    "source": "BFRPG Field Guide Omnibus conversion",
-    "source_page": 144
-  },
-  {
     "name": "Infernal, Barbed Devil",
     "slug": "infernal-barbed-devil-bfomnibus",
     "armor_class": "0 [19] (m)",
@@ -7310,21 +7279,6 @@
     "source_page": 149
   },
   {
-    "name": "Infernal, Imp",
-    "slug": "infernal-imp-bfomnibus",
-    "armor_class": "1 [18] (s)",
-    "hit_dice": "2",
-    "attacks": "Sting or Tail (1d3)",
-    "special": "silver weapons to hit, poison, regeneration, spells, invisibility, charm, fire, cold, see description",
-    "move": "6 Fly 18",
-    "hde": "4",
-    "xp": "120",
-    "hde_xp": "4/120",
-    "description": "Infernal beings are monstrosities with otherworldly or extra-dimensional origins. These beings are universally vile and at odds with the powers of goodness. There are several distinct races or groups of infernal beings, generally grouped by their origin. They might be called demons, devils, or other related terms. If reduced to 0 Hit Points in the mortal world, an infernal is not destroyed but disappears in a pall of greasy black smoke and terrifying scream, banished back to its home dimension or plane. Once banished, it cannot return to the mortal world for an entire year. To truly destroy one it must be reduced to 0 Hit Points while in its home dimension.\n\nAn Imp is a diminutive, dark, bat-winged humanoid standing about 2 feet tall with a dagger-like tail stinger. It is able to change at-will into the form of a massive spider, raven, or giant rat, all with a devilish look. In all forms the imp has Darkvision with a range of 60 feet.\n\nIn its natural form, an imp attacks with its poisonous stinger; those struck must save vs. Poison or die suffering tremendous pain. In its other forms it cannot use its poison attack. In addition to physical attacks, an imp has several magical qualities available in any of its forms. It can detect magic at-will, become invisible at- will, and once per day can charm person (as a 7th- level Magic-user).\n\nAn imp is immune to poison, cold, fire, and electrical attacks. Silver or magical weapons or spells are required to strike an imp. So long as it has at least 1 HP remaining, it regenerates 1 HP each round; if reduced below 1 HP an imp will die like any other creature. An imp has a bonus of +4 on all saving throws against magic (including wands).",
-    "source": "BFRPG Field Guide Omnibus conversion",
-    "source_page": 150
-  },
-  {
     "name": "Infernal, Larva",
     "slug": "infernal-larva-bfomnibus",
     "armor_class": "7 [12]",
@@ -7336,21 +7290,6 @@
     "xp": "15",
     "hde_xp": "1/15",
     "description": "Infernal beings are monstrosities with otherworldly or extra-dimensional origins. These beings are universally vile and at odds with the powers of goodness. There are several distinct races or groups of infernal beings, generally grouped by their origin. They might be called demons, devils, or other related terms. If reduced to 0 Hit Points in the mortal world, an infernal is not destroyed but disappears in a pall of greasy black smoke and terrifying scream, banished back to its home dimension or plane. Once banished, it cannot return to the mortal world for an entire year. To truly destroy one it must be reduced to 0 Hit Points while in its home dimension.\n\nLarvae are pale yellowish maggot-like creatures with the faces of men and women, or less frequently other sentient creatures. They are large, about 1 foot in diameter and 5-8 feet long, and their faces are always contorted in expressions of horror, pain, or anger. Many believe that larvae are the souls or spirits of the evil dead, but no one has ever identified a larva as being any specific deceased person, so this cannot be proven.\n\nOne thing that is certain is that larvae are the lowest form of infernal, found in the planes or dimensions where other, more powerful demons or devils make their lairs. Larvae are traded as if livestock, and indeed may be consumed by other infernals as food. Some say that a few of the most perfectly evil larvae are transformed into the forms of true demons or devils, and that this is how such creatures reproduce, but this has never been successfully confirmed.\n\nLarvae have no special powers or abilities.",
-    "source": "BFRPG Field Guide Omnibus conversion",
-    "source_page": 151
-  },
-  {
-    "name": "Infernal, Lemure",
-    "slug": "infernal-lemure-bfomnibus",
-    "armor_class": "8 [11]",
-    "hit_dice": "3",
-    "attacks": "Claw (1d3)",
-    "special": "regeneration, fire, magic weapons to hit",
-    "move": "12",
-    "hde": "3",
-    "xp": "60",
-    "hde_xp": "3/60",
-    "description": "Infernal beings are monstrosities with otherworldly or extra-dimensional origins. These beings are universally vile and at odds with the powers of goodness. There are several distinct races or groups of infernal beings, generally grouped by their origin. They might be called demons, devils, or other related terms. If reduced to 0 Hit Points in the mortal world, an infernal is not destroyed but disappears in a pall of greasy black smoke and terrifying scream, banished back to its home dimension or plane. Once banished, it cannot return to the mortal world for an entire year. To truly destroy one it must be reduced to 0 Hit Points while in its home dimension.\n\nA Lemure is said to be the soul of a damned one, converted into a wretched form to serve more powerful infernals. Its body resembles the one it had in life, covered in bubbling pitch and utterly devoid of speech or intelligence. All other infernals can telepathically control a lemure without effort; while it is thus controlled, a lemure has a morale of 11. A lemure regenerates 1 HP of normal damage per round, even if reduced to 0 HP; damage from magic weapons, fire, spells, or holy water cannot be regenerated in this way.",
     "source": "BFRPG Field Guide Omnibus conversion",
     "source_page": 151
   },
@@ -7533,21 +7472,6 @@
     "description": "Infernal beings are monstrosities with otherworldly or extra-dimensional origins. These beings are universally vile and at odds with the powers of goodness. There are several distinct races or groups of infernal beings, generally grouped by their origin. They might be called demons, devils, or other related terms. If reduced to 0 Hit Points in the mortal world, an infernal is not destroyed but disappears in a pall of greasy black smoke and terrifying scream, banished back to its home dimension or plane. Once banished, it cannot return to the mortal world for an entire year. To truly destroy one it must be reduced to 0 Hit Points while in its home dimension.\n\nSpined Devils wear spikes and horns all over their muscular bodies covered in gray, leathern scales. Curled horns often protrude from their beastly heads where razor-sharp fangs drip with venom. They stand 8 to 10 feet tall. Under their many scales hide thorny spines that sometimes burst forth in a spray of carnage. Thick, bony blades may extend or retract from their elbows, to be used as weapons as needed, though they often prefer wielding spears or swords. Only magic weapons harm spined devils, and they are immune to non-magical fire or poison.\n\nIn addition to weapon strikes, spined devils may bite opponents who must save vs. Poison or fall unconscious for 1d6 minutes. They may also strike with their elbow blades, but their most fearsome attack comes from a burst of spines. Every round, the spined devil has a 1 in 6 chance of releasing a cloud of barbed spines from its skin. Every opponent within a 5-foot radius takes 4d6 points of damage, reduced by half by a successful save vs. Dragon Breath.",
     "source": "BFRPG Field Guide Omnibus conversion",
     "source_page": 157
-  },
-  {
-    "name": "Infernal, Succubus",
-    "slug": "infernal-succubus-bfomnibus",
-    "armor_class": "0 [19] (m)",
-    "hit_dice": "7",
-    "attacks": "Claw or Weapon (1d3)",
-    "special": "magic weapons to hit, spells, shapechanging, charm, darkvision",
-    "move": "9 Fly 15",
-    "hde": "9",
-    "xp": "1,100",
-    "hde_xp": "9/1,100",
-    "description": "Infernal beings are monstrosities with otherworldly or extra-dimensional origins. These beings are universally vile and at odds with the powers of goodness. There are several distinct races or groups of infernal beings, generally grouped by their origin. They might be called demons, devils, or other related terms. If reduced to 0 Hit Points in the mortal world, an infernal is not destroyed but disappears in a pall of greasy black smoke and terrifying scream, banished back to its home dimension or plane. Once banished, it cannot return to the mortal world for an entire year. To truly destroy one it must be reduced to 0 Hit Points while in its home dimension.\n\nA Succubus (plural succubi) is a demon in female form, a temptress who corrupts mortal men through lust. In her natural form, a succubus appears as a lovely human woman with small horns on her forehead and batlike wings sprouting from her back. A succubus is rarely seen in its natural form however, as one can change shape into nearly any humanoid form, with size ranging from as small as a halfling to as large as a human, and of either physical gender (though due to misunderstanding the nature of these creatures, they are often called incubi, or incubus, when appearing male) and any appearance, even a perfect likeness of another character or humanoid creature. A succubus can change shape in a single round, and do so as often as desired. A succubus can speak any language, and has Darkvision to a range of 120 feet.\n\nThe kiss of a succubus will drain very life of its victim. A charmed victim will submit to this willingly; an unwilling target of such affections (one not charmed) must obviously be restrained. Each round of kissing applies one negative level to the recipient, and all lost HP are transferred to the succubus (even if this temporarily raises her above her normal maximum; excess points are temporary and only last a single day). Draining the life of a victim in this way is the succubus' preferred method of killing. A succubus can perform any of the following spell-like powers as often as desired, instead of attacking: charm person, mind reading, clairaudience (as the potion), darkness (as the reverse of light) in a 5-foot radius, all as if a 6th-level Magic-user.\n\nThe majority of succubi (about 70% of them) have the ability to, once per day, attempt to summon another infernal to come to their aid. Roll 1d%: on a roll of 01- 30, a nalfeshni (page 154) appears; on 31-40, a balor (see page 145) is summoned; on a roll of 41-00, the attempt fails. If the attempt fails, the succubus can try again as often as desired (once per round maximum) until it succeeds.",
-    "source": "BFRPG Field Guide Omnibus conversion",
-    "source_page": 158
   },
   {
     "name": "Infernal, Vega",
@@ -7892,8 +7816,8 @@
     "description": "These massive sea monsters resemble unimaginably large squids with eight (or more) wiggling appendages. They attack entire vessels, ripping them apart and swallowing crew whole with their massive, tooth filled maw. When a kraken attacks, it grabs a target with one of its tentacles on round one, attempts to bite them on round two, and then swallows them whole on round three. A target who has been swallowed whole is slain. Krakens typically have eight tentacles and can make an attack with each one of them every combat round."
   },
   {
-    "name": "Kraken",
-    "slug": "kraken-bfomnibus",
+    "name": "Kraken, Greater",
+    "slug": "kraken-greater-bfomnibus",
     "armor_class": "0 [19]",
     "hit_dice": "36",
     "attacks": "Bite or Tentacle (7d6)",
@@ -7902,7 +7826,7 @@
     "hde": "38",
     "xp": "9,800",
     "hde_xp": "38/9,800",
-    "description": "A Kraken is possibly the largest known creature, with a body 150 feet long and 10 barbed tentacles that can reach an additional 500 feet. Its beak-like mouth is located where the tentacles meet the lower portion of its body. It usually stays in the deepest parts of the oceans, but will come to the surface for prey.\n\nA kraken strikes its opponents with some of its barbed tentacles, then grab and crush its victims within its huge jaws. Once an opponent has been hit, the kraken wraps a tentacle around the victim and automatically inflicts 7d6 points of damage each round. When six of the tentacles are wrapped around a ship, the kraken may crush for 4d6 points of damage to the vessel each round. Victims caught in the kraken's tentacles attack at -4. If a tentacle takes 60 points of damage it's severed. Severed tentacles will regrow in 1d10+10 days.\n\nA kraken can jet backward once per round at a speed of 280 feet in a straight line. When a kraken has lost 5 of its tentacles or 50% of its hit points, it will emit a cloud of jet-black ink in a 100-foot cubic area. This can be repeated once per hour. The cloud provides total concealment, which the kraken will use to escape. Creatures within the cloud are automatically blinded.",
+    "description": "A greater kraken is possibly the largest known creature, with a body 150 feet long and 10 barbed tentacles that can reach an additional 500 feet. Its beak-like mouth is located where the tentacles meet the lower portion of its body. It usually stays in the deepest parts of the oceans, but will come to the surface for prey.\n\nA kraken strikes its opponents with some of its barbed tentacles, then grab and crush its victims within its huge jaws. Once an opponent has been hit, the kraken wraps a tentacle around the victim and automatically inflicts 7d6 points of damage each round. When six of the tentacles are wrapped around a ship, the kraken may crush for 4d6 points of damage to the vessel each round. Victims caught in the kraken's tentacles attack at -4. If a tentacle takes 60 points of damage it's severed. Severed tentacles will regrow in 1d10+10 days.\n\nA kraken can jet backward once per round at a speed of 280 feet in a straight line. When a kraken has lost 5 of its tentacles or 50% of its hit points, it will emit a cloud of jet-black ink in a 100-foot cubic area. This can be repeated once per hour. The cloud provides total concealment, which the kraken will use to escape. Creatures within the cloud are automatically blinded.",
     "source": "BFRPG Field Guide Omnibus conversion",
     "source_page": 164
   },
@@ -8882,21 +8806,6 @@
     "name": "Mold, Deadly (Brown)",
     "slug": "mold-deadly-brown-bfomnibus",
     "armor_class": "9 [10]",
-    "hit_dice": "2",
-    "attacks": "Attack (special)",
-    "special": "poison, fire, cold, lightning",
-    "move": "None",
-    "hde": "3",
-    "xp": "60",
-    "hde_xp": "3/60",
-    "description": "Brown mold is a fungus found in underground areas. A patch is typically about 5 feet in diameter, and could be any color from dark brown to pale tan. Brown mold feeds on light and warmth, save only for ultraviolet light (which is why it is found underground, as direct sunlight or other sources of ultraviolet light will cause it 1d4 points of damage per turn).\n\nThe area surrounding a patch of brown mold will be noticeably colder, and any living creature standing within 5 feet of a brown mold will suffer 1d8 points of cold damage each round. Exposure to heat (such as a torch, fireball spell, etc.) causes the mold to grow almost instantly. Fires that would otherwise do up to 10 points of damage will cause the patch to add an additional 20 square feet or so in size (approximately doubling its initial size) with each additional 10 points or so adding a similar area. This effectively increases the area of its cold damage. Any type of fire or cold attack will not harm this mold, but attacks with weapons or lightning can damage it (though weapon attacks may also damage the weapon, if the relatively thin layer of mold lies over metal or stone). Exposure to ultraviolet light (including sunlight) renders a brown mold dormant, negating its cold attack completely.\n\nYellow mold is also found in underground environments. If touched, it does 1d6 points of damage to exposed flesh; further, any forceful or damaging contact is 50% likely to cause it to burst forth with a cloud of poisonous spores. Everyone within 10 feet of the mold must save vs. Poison or die of asphyxiation. Obviously, normal weapon attacks are useless against this creature; however, fire destroys yellow mold, and sunlight renders it dormant.",
-    "source": "BFRPG Field Guide Omnibus conversion",
-    "source_page": 181
-  },
-  {
-    "name": "Mold, Deadly (Yellow)",
-    "slug": "mold-deadly-yellow-bfomnibus",
-    "armor_class": "N/A",
     "hit_dice": "2",
     "attacks": "Attack (special)",
     "special": "poison, fire, cold, lightning",
@@ -13306,21 +13215,6 @@
     "source_page": 275
   },
   {
-    "name": "Violet Fungus",
-    "slug": "violet-fungus-bfomnibus",
-    "armor_class": "7 [12]",
-    "hit_dice": "2",
-    "attacks": "Tentacle (1d6)",
-    "special": "poison",
-    "move": "3",
-    "hde": "3",
-    "xp": "60",
-    "hde_xp": "3/60",
-    "description": "A Violet Fungus resembles a shrieker, and is often found growing among them. Its coloration ranges from purple to gray. In combat, a violet fungus flails about with its tentacles at any living creatures that come within its reach. The attacks of the fungus are poisonous; any creature hit must save vs. Poison or lose one point of Constitution. Any character reduced to zero Constitution dies. Constitution points lost to this poison will be regained at a rate of one per day.",
-    "source": "BFRPG Field Guide Omnibus conversion",
-    "source_page": 275
-  },
-  {
     "name": "Wanstrow",
     "slug": "wanstrow-bfomnibus",
     "armor_class": "2 [17]",
@@ -13637,8 +13531,8 @@
     "source_page": 163
   },
   {
-    "name": "Wolf (Winter & Worg) (Winter)",
-    "slug": "wolf-winter-worg-winter-bfomnibus",
+    "name": "Wolf, Winter",
+    "slug": "wolf-winter-bfomnibus",
     "armor_class": "5 [14]",
     "hit_dice": "6",
     "attacks": "Bite or Breath (3d6)",
@@ -13647,21 +13541,6 @@
     "hde": "7",
     "xp": "600",
     "hde_xp": "7/600",
-    "description": "A Winter Wolf is a dangerous predator that grows about 8 feet long, stands about 4.5 feet at the shoulder, and weighs about 450 pounds. This wolf typically hunts in packs. Its size and formidable breath weapon allows it to hunt and kill creatures much larger than itself. A pack usually works to circle and knock down its prey.\n\nThe breath weapon of a winter wolf is a 15-foot cone that can be used once every 1d4 rounds for 4d6 points of cold damage; a save vs. Dragon Breath for half damage applies. The bite of a winter wolf also deals an extra 1d6 points of cold damage. An individual hit by a winter wolf's bite must save vs. Death Ray or be knocked to the ground prone. A winter wolf is immune to cold effects.\n\nA Worg is a thoroughly evil creature with gray or black fur. It is 5 feet long and stands 3 feet tall at the shoulder, and weighs 300 pounds. More intelligent than its smaller cousin, a worg speaks its own language. Some can also speak Common and Goblin. Mated pairs or packs work together to bring down large game, while a lone worg usually chases down creatures smaller than itself. Both often use hit-and-run tactics to exhaust their quarry. A worg that hits with a bite attack can attempt to trip the opponent as a free action. The target of the trip attack must save vs. Death Ray or fall to the ground.",
-    "source": "BFRPG Field Guide Omnibus conversion",
-    "source_page": 279
-  },
-  {
-    "name": "Wolf (Winter & Worg) (Worg)",
-    "slug": "wolf-winter-worg-worg-bfomnibus",
-    "armor_class": "6 [13]",
-    "hit_dice": "3",
-    "attacks": "Bite or Breath (3d6)",
-    "special": "breath weapon, cold, immunity",
-    "move": "15",
-    "hde": "3",
-    "xp": "60",
-    "hde_xp": "3/60",
     "description": "A Winter Wolf is a dangerous predator that grows about 8 feet long, stands about 4.5 feet at the shoulder, and weighs about 450 pounds. This wolf typically hunts in packs. Its size and formidable breath weapon allows it to hunt and kill creatures much larger than itself. A pack usually works to circle and knock down its prey.\n\nThe breath weapon of a winter wolf is a 15-foot cone that can be used once every 1d4 rounds for 4d6 points of cold damage; a save vs. Dragon Breath for half damage applies. The bite of a winter wolf also deals an extra 1d6 points of cold damage. An individual hit by a winter wolf's bite must save vs. Death Ray or be knocked to the ground prone. A winter wolf is immune to cold effects.\n\nA Worg is a thoroughly evil creature with gray or black fur. It is 5 feet long and stands 3 feet tall at the shoulder, and weighs 300 pounds. More intelligent than its smaller cousin, a worg speaks its own language. Some can also speak Common and Goblin. Mated pairs or packs work together to bring down large game, while a lone worg usually chases down creatures smaller than itself. Both often use hit-and-run tactics to exhaust their quarry. A worg that hits with a bite attack can attempt to trip the opponent as a free action. The target of the trip attack must save vs. Death Ray or fall to the ground.",
     "source": "BFRPG Field Guide Omnibus conversion",
     "source_page": 279

@@ -1,6 +1,11 @@
 Monster subcategory fold report
 ==============================
 
+
+Cleanup pass completed in this revision
+---------------------------------------
+All unused monster subcategory pages have been physically deleted from monsters/subcategories/. The only remaining subcategory pages are the 10 retained rule-bearing pages listed below plus index.html. Those 10 pages were also audited against their current member monster entries and updated so category-level mechanics no longer override or contradict member mechanics.
+
 Retained rule-bearing category pages: 10
   - bear-basic-fantasy-rpg.html: Bear
   - demon-white-box.html: Demon (White Box)

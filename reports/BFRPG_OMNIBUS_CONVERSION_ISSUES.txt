@@ -679,7 +679,7 @@ Converted entries:
 - Will-o’-Wisp: HD 9; HDE 11; XP 1,700; source p. 278.
 - Wind Walker: HD 6+3; HDE 8; XP 800; source p. 278.
 - Winged Devourer: HD 6 Attacks: 1 bite or 2 talons, special attack; HDE 6 or 2; XP 400/30; source p. 278.
-- Wolf (Winter & Worg) (Winter): HD 6; HDE 7; XP 600; source p. 279.
+- Wolf, Winter: HD 6; HDE 7; XP 600; source p. 279.
 - Wolf (Winter & Worg) (Worg): HD 3; HDE 3; XP 60; source p. 279.
 - Wolf, Wind: HD 8; HDE 9; XP 1,100; source p. 279.
 - Wolpertinger: HD 2; HDE 2; XP 30; source p. 280.
