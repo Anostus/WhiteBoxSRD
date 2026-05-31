@@ -12,13 +12,13 @@ Changes made
 - Migrated the former Bear, Demon, Dracomander, Dragon, Eel, Golem, Human, Living Statue, Lycanthrope, and Shrew category notes into their individual member pages before the source note/footer.
 - Added the Dragon Rules block, including dragon age and breath weapon tables, to every dragon entry.
 - Added the Dragon Rules block to every dracomander entry as well.
-- Added/updated See Also sections for every member of the former Bear, Demon/Infernal, Dracomander, Dragon, Eel, Golem, Human, Living Statue, Lycanthrope, and Shrew groups.
+- Added/updated See Also sections for every member of the former Bear, Demon/Demon, Dracomander, Dragon, Eel, Golem, Human, Living Statue, Lycanthrope, and Shrew groups.
 - Treated Demon and Infernal as a single See Also group, with an explicit note that demons and infernals are equivalent lower-planar creatures in this SRD.
 - Deleted the redundant Field Guide infernal duplicate pages:
-  - infernal-balor-bfomnibus.html
-  - infernal-succubus-bfomnibus.html
-  - infernal-lemure-bfomnibus.html
-  - infernal-imp-bfomnibus.html
+  - demon-balor-bfomnibus.html
+  - demon-succubus-bfomnibus.html
+  - demon-lemure-bfomnibus.html
+  - demon-imp-bfomnibus.html
 - Removed the alternate-version notes from the White Box Demon pages that pointed to those deleted infernal duplicates.
 - Deleted these additional redundant monster pages:
   - violet-fungus-bfomnibus.html

@@ -364,38 +364,38 @@ Converted entries:
 - Infected, Humanoid: HD 2 or higher; HDE 2; XP 30; source p. 141.
 - Infected, Owl Bear: HD 6; HDE 6; XP 400; source p. 142.
 - Infected, Zombie: HD 3; HDE 3; XP 60; source p. 142.
-- Infernal, Agares: HD 7+7; HDE 8; XP 800; source p. 143.
-- Infernal, Arachnea: HD 6; HDE 7; XP 600; source p. 143.
-- Infernal, Balor: HD 8+8; HDE 9; XP 1,100; source p. 144.
-- Infernal, Barbed Devil: HD 8; HDE 9; XP 1,100; source p. 144.
-- Infernal, Baubas: HD 7; HDE 9; XP 1,100; source p. 145.
-- Infernal, Bone Devil: HD 9; HDE 10; XP 1,400; source p. 145.
-- Infernal, Creoboros: HD 8, 12 , 16 , 20; HDE 16; XP 3,200; source p. 146.
-- Infernal, Dread Horseman: HD 6 to 8; HDE 10; XP 1,400; source p. 146.
-- Infernal, Eldri: HD 9; HDE 11; XP 1,700; source p. 147.
-- Infernal, Erinyes: HD 7+2; HDE 8; XP 800; source p. 147.
-- Infernal, Fiend: HD 13; HDE 15; XP 2,900; source p. 148.
-- Infernal, Glabrezu: HD 10; HDE 11; XP 1,700; source p. 149.
-- Infernal, Hezrou: HD 10; HDE 12; XP 2,000; source p. 149.
-- Infernal, Ice Devil: HD 3; HDE 5; XP 240; source p. 149.
-- Infernal, Imp: HD 2; HDE 4; XP 120; source p. 150.
-- Infernal, Larva: HD 1; HDE 1; XP 15; source p. 151.
-- Infernal, Lemure: HD 3; HDE 3; XP 60; source p. 151.
-- Infernal, Malacoda: HD 5; HDE 7; XP 600; source p. 151.
-- Infernal, Malebranche: HD 5+5; HDE 7; XP 600; source p. 151.
-- Infernal, Manes: HD 1; HDE 2; XP 30; source p. 152.
-- Infernal, Marilith: HD 7; HDE 9; XP 1,100; source p. 152.
-- Infernal, Nalfeshni: HD 11; HDE 13; XP 2,300; source p. 153.
-- Infernal, Night Hag: HD 8; HDE 10; XP 1,400; source p. 153.
-- Infernal, Nightmare: HD 6+6; HDE 7; XP 600; source p. 154.
-- Infernal, Pazzu: HD 9; HDE 10; XP 1,400; source p. 155.
-- Infernal, Quasit: HD 2; HDE 4; XP 120; source p. 155.
-- Infernal, Rubicante: HD 4; HDE 6; XP 400; source p. 156.
-- Infernal, Shadow Fiend: HD 6, 8, 10, or 12; HDE 9 or 13; XP 1,100/2,300; source p. 156.
-- Infernal, Spined Devil: HD 8; HDE 9; XP 1,100; source p. 157.
-- Infernal, Succubus: HD 7; HDE 9; XP 1,100; source p. 158.
-- Infernal, Vega: HD 9; HDE 11; XP 1,700; source p. 158.
-- Infernal, Vrock: HD 8; HDE 9; XP 1,100; source p. 159.
+- Demon, Agares: HD 7+7; HDE 8; XP 800; source p. 143.
+- Demon, Arachnea: HD 6; HDE 7; XP 600; source p. 143.
+- Demon, Balor: HD 8+8; HDE 9; XP 1,100; source p. 144.
+- Demon, Barbed Devil: HD 8; HDE 9; XP 1,100; source p. 144.
+- Demon, Baubas: HD 7; HDE 9; XP 1,100; source p. 145.
+- Demon, Bone Devil: HD 9; HDE 10; XP 1,400; source p. 145.
+- Demon, Creoboros: HD 8, 12 , 16 , 20; HDE 16; XP 3,200; source p. 146.
+- Demon, Dread Horseman: HD 6 to 8; HDE 10; XP 1,400; source p. 146.
+- Demon, Eldri: HD 9; HDE 11; XP 1,700; source p. 147.
+- Demon, Erinyes: HD 7+2; HDE 8; XP 800; source p. 147.
+- Demon, Fiend: HD 13; HDE 15; XP 2,900; source p. 148.
+- Demon, Glabrezu: HD 10; HDE 11; XP 1,700; source p. 149.
+- Demon, Hezrou: HD 10; HDE 12; XP 2,000; source p. 149.
+- Demon, Ice Devil: HD 3; HDE 5; XP 240; source p. 149.
+- Demon, Imp: HD 2; HDE 4; XP 120; source p. 150.
+- Demon, Larva: HD 1; HDE 1; XP 15; source p. 151.
+- Demon, Lemure: HD 3; HDE 3; XP 60; source p. 151.
+- Demon, Malacoda: HD 5; HDE 7; XP 600; source p. 151.
+- Demon, Malebranche: HD 5+5; HDE 7; XP 600; source p. 151.
+- Demon, Manes: HD 1; HDE 2; XP 30; source p. 152.
+- Demon, Marilith: HD 7; HDE 9; XP 1,100; source p. 152.
+- Demon, Nalfeshni: HD 11; HDE 13; XP 2,300; source p. 153.
+- Demon, Night Hag: HD 8; HDE 10; XP 1,400; source p. 153.
+- Demon, Nightmare: HD 6+6; HDE 7; XP 600; source p. 154.
+- Demon, Pazzu: HD 9; HDE 10; XP 1,400; source p. 155.
+- Demon, Quasit: HD 2; HDE 4; XP 120; source p. 155.
+- Demon, Rubicante: HD 4; HDE 6; XP 400; source p. 156.
+- Demon, Shadow Fiend: HD 6, 8, 10, or 12; HDE 9 or 13; XP 1,100/2,300; source p. 156.
+- Demon, Spined Devil: HD 8; HDE 9; XP 1,100; source p. 157.
+- Demon, Succubus: HD 7; HDE 9; XP 1,100; source p. 158.
+- Demon, Vega: HD 9; HDE 11; XP 1,700; source p. 158.
+- Demon, Vrock: HD 8; HDE 9; XP 1,100; source p. 159.
 - Inversegen: HD 5; HDE 5; XP 240; source p. 159.
 - Iron Snapper: HD 6; HDE 7; XP 600; source p. 159.
 - Issuv: HD 2; HDE 2; XP 30; source p. 160.

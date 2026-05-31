@@ -140,9 +140,9 @@ This pass continues the Basic Fantasy → White Box monster cleanup by reviewing
 | Infected, Humanoid | `infected-humanoid-bfomnibus` | special | disease, regeneration, spells, invisibility, hold/grab, illusion, charm | disease, regeneration, invisibility, hold/grab, illusion, charm |
 | Infected, Owl Bear | `infected-owl-bear-bfomnibus` | special | disease, regeneration, spells, invisibility, hold/grab, hug, illusion, charm | disease, regeneration, invisibility, hold/grab, hug, illusion, charm |
 | Infected, Zombie | `infected-zombie-bfomnibus` | special | disease, regeneration, spells, invisibility, hold/grab, illusion, charm, undead | disease, regeneration, invisibility, hold/grab, illusion, charm, undead |
-| Infernal, Barbed Devil | `infernal-barbed-devil-bfomnibus` | special | magic weapons to hit, spells, shapechanging, fear, hold/grab, surprise | magic weapons to hit, shapechanging, fear, hold/grab, surprise |
-| Infernal, Lemure | `infernal-lemure-bfomnibus` | special | regeneration, spells, fire, magic weapons to hit | regeneration, fire, magic weapons to hit |
-| Infernal, Pazzu | `infernal-pazzu-bfomnibus` | special | magic weapons to hit, poison, clerical abilities, hug, fire, cold, immunity | magic weapons to hit, poison, insect plague 1/turn, animate dead at will, disease immunity, fire/cold resistance |
+| Demon, Barbed Devil | `demon-barbed-devil-bfomnibus` | special | magic weapons to hit, spells, shapechanging, fear, hold/grab, surprise | magic weapons to hit, shapechanging, fear, hold/grab, surprise |
+| Demon, Lemure | `demon-lemure-bfomnibus` | special | regeneration, spells, fire, magic weapons to hit | regeneration, fire, magic weapons to hit |
+| Demon, Pazzu | `demon-pazzu-bfomnibus` | special | magic weapons to hit, poison, clerical abilities, hug, fire, cold, immunity | magic weapons to hit, poison, insect plague 1/turn, animate dead at will, disease immunity, fire/cold resistance |
 | Jack O'Lantern | `jack-o-lantern-bfomnibus` | special | poison, breath weapon, spells, charm, sleep, fire, cold, immunity | poison, breath weapon, charm, sleep, fire, cold, immunity |
 | Jackalwere | `jackalwere-bfomnibus` | special | spells, gaze, sleep | gaze, sleep |
 | Kreptax | `kreptax-bfomnibus` | special | paralysis, spells, clerical abilities, fear, cold, darkvision | paralysis, spells, fear, cold, darkvision |

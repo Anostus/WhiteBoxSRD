@@ -51,7 +51,7 @@ Removed active category pages: 66
   - griffon-field-guide-omnibus.html: Griffon (Basic Fantasy Field Guide Omnibus)
   - horse-basic-fantasy-rpg.html: Horse (Basic Fantasy RPG)
   - infected-field-guide-omnibus.html: Infected (Basic Fantasy Field Guide Omnibus)
-  - infernal-field-guide-omnibus.html: Infernal (Basic Fantasy Field Guide Omnibus)
+  - demon-field-guide-omnibus.html: Infernal (Basic Fantasy Field Guide Omnibus)
   - insect-swarm-basic-fantasy-rpg.html: Insect Swarm (Basic Fantasy RPG)
   - lamprey-field-guide-omnibus.html: Lamprey (Basic Fantasy Field Guide Omnibus)
   - lizard-basic-fantasy-rpg.html: Lizard

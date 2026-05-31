@@ -19,12 +19,62 @@
   var sourceCore = document.querySelector('#monster-source-core');
   var sourceConverted = document.querySelector('#monster-source-converted');
   var monsterHasImage = document.querySelector('#monster-has-image');
+  var monsterSort = document.querySelector('#monster-sort');
+  var monsterTbody = document.querySelector('#monster-index-body');
+  var alphaNav = document.querySelector('.alpha-nav');
   if(monsterFilter){
     var rows = Array.prototype.slice.call(document.querySelectorAll('tr[data-monster-name]'));
-    var letterRows = Array.prototype.slice.call(document.querySelectorAll('tr.letter-row'));
+
+    function rowName(row){ return row.getAttribute('data-name-sort') || norm(row.getAttribute('data-monster-name')); }
+    function rowNumber(row, attr){
+      var raw = row.getAttribute(attr);
+      var value = parseFloat(raw);
+      return isNaN(value) ? 99999 : value;
+    }
+    function letterFor(row){
+      var name = rowName(row).replace(/^(the|a|an)\s+/, '');
+      var ch = name.charAt(0).toUpperCase();
+      return ch >= 'A' && ch <= 'Z' ? ch : '#';
+    }
+    function makeLetterRow(letter){
+      var tr = document.createElement('tr');
+      tr.className = 'letter-row';
+      var th = document.createElement('th');
+      th.colSpan = 4;
+      th.id = letter;
+      th.textContent = letter;
+      tr.appendChild(th);
+      return tr;
+    }
+
+    function rebuildMonsterRows(){
+      if(!monsterTbody) return;
+      var sortBy = monsterSort ? monsterSort.value : 'name';
+      rows.sort(function(a, b){
+        if(sortBy === 'hd') return rowNumber(a, 'data-hd-sort') - rowNumber(b, 'data-hd-sort') || rowName(a).localeCompare(rowName(b));
+        if(sortBy === 'hde') return rowNumber(a, 'data-hde-sort') - rowNumber(b, 'data-hde-sort') || rowName(a).localeCompare(rowName(b));
+        return rowName(a).localeCompare(rowName(b));
+      });
+      monsterTbody.innerHTML = '';
+      if(sortBy === 'name'){
+        var lastLetter = '';
+        rows.forEach(function(row){
+          var letter = letterFor(row);
+          if(letter !== lastLetter){
+            lastLetter = letter;
+            monsterTbody.appendChild(makeLetterRow(letter));
+          }
+          monsterTbody.appendChild(row);
+        });
+        if(alphaNav) alphaNav.style.display = '';
+      } else {
+        rows.forEach(function(row){ monsterTbody.appendChild(row); });
+        if(alphaNav) alphaNav.style.display = 'none';
+      }
+    }
 
     function updateLetterRows(){
-      letterRows.forEach(function(letterRow){
+      Array.prototype.slice.call(document.querySelectorAll('tr.letter-row')).forEach(function(letterRow){
         var visible = false;
         var node = letterRow.nextElementSibling;
         while(node && !node.classList.contains('letter-row')){
@@ -44,7 +94,7 @@
       var showConverted = !sourceConverted || sourceConverted.checked;
       rows.forEach(function(row){
         var name = norm(row.getAttribute('data-monster-name'));
-        var source = row.getAttribute('data-monster-source') || (name.indexOf('converted') !== -1 ? 'converted' : 'core');
+        var source = row.getAttribute('data-monster-source') || 'core';
         var sourceOK = (source === 'core' && showCore) || (source === 'converted' && showConverted);
         var textOK = !q || name.indexOf(q) !== -1;
         var imageOK = !monsterHasImage || !monsterHasImage.checked || row.getAttribute('data-monster-image') === 'true';
@@ -57,6 +107,8 @@
     if(sourceCore) sourceCore.addEventListener('change', applyMonsterFilters);
     if(sourceConverted) sourceConverted.addEventListener('change', applyMonsterFilters);
     if(monsterHasImage) monsterHasImage.addEventListener('change', applyMonsterFilters);
+    if(monsterSort) monsterSort.addEventListener('change', function(){ rebuildMonsterRows(); applyMonsterFilters(); });
+    rebuildMonsterRows();
     applyMonsterFilters();
   }
 
