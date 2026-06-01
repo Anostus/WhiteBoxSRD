@@ -4199,6 +4199,23 @@
     "hde_sort": 24.0
   },
   {
+    "name": "Dinosaur, Edmontosaurus (Anatosaurus, Trachodon)",
+    "slug": "dinosaur-edmontosaurus-anatosaurus-trachodon-bfomnibus",
+    "armor_class": "5 [14]",
+    "hit_dice": "12",
+    "attacks": "Tail lash (1d6-1)",
+    "special": "None",
+    "move": "18",
+    "hde": "12",
+    "xp": "2,000",
+    "hde_xp": "12/2,000",
+    "description": "These dinosaurs are members of the hadrosaurid family, sometimes called duck-billed dinosaurs. They are large animals, being 40 to 50 feet in length, and are able to go on four feet or two. Edmontosaurs are plant eaters who prefer swamp-lands and floodplains. They are shy creatures, prone to fleeing if possible; their only effective attack is to lash out with their long, heavy tails.",
+    "source": "BFRPG Field Guide Omnibus conversion",
+    "source_page": 75,
+    "hd_sort": 12.0,
+    "hde_sort": 12.0
+  },
+  {
     "name": "Dinosaur, Elasmosaurus",
     "slug": "dinosaur-elasmosaurus-bfomnibus",
     "armor_class": "7 [12]",
@@ -5173,6 +5190,23 @@
     "source_page": 91,
     "hd_sort": 4.0,
     "hde_sort": 4.0
+  },
+  {
+    "name": "Eel, Common",
+    "slug": "eel-common-bfomnibus",
+    "armor_class": "9 [10]",
+    "hit_dice": "1",
+    "attacks": "Bite (1d6)",
+    "special": "None",
+    "move": "Swim 18",
+    "hde": "1",
+    "xp": "15",
+    "hde_xp": "1/15",
+    "description": "Common Eels often lair along reefs or in other areas where they can hide in holes and nooks to ambush prey. They are territorial and aggressive in defense of their lairs.",
+    "source": "BFRPG Field Guide Omnibus conversion",
+    "source_page": 90,
+    "hd_sort": 1.0,
+    "hde_sort": 1.0
   },
   {
     "name": "Eel, Electric",
@@ -6754,6 +6788,23 @@
     "xp": "120",
     "hde_xp": "4/120",
     "description": "Ghost Shrooms appear as a patch of black mushrooms growing underground. A conical cap sits upon a main stalk from which mycelia extend to smaller stalks, which might be as far as 20 feet from the main stalk. The largest stalk stands three feet tall.\n\nThis fungus is strange, seemingly a natural living group of mushrooms but behaving and being detected as a form of undead. Indeed, ghost shrooms can subsist only on dead flesh, which they collect by entangling and constricting living beings until unconscious and then infiltrating them with strands of mycelia (the fungal equivalent of plant roots).\n\nThe ghost shroom remains motionless until it suddenly attacks, thus surprising on a roll of 1-3 on 1d6. A successful attack effectively entangles the victim in a sticky goo. Every round thereafter, the stem presses downward, doing an additional 1d4 points of damage. A victim may attempt to escape with a save vs. Death Ray (with Strength bonus added).\n\nWhen the air around the Ghost Shroom is disturbed by living creatures, spores are released in the air that produce a sickly-sweet and dank aroma which attracts lesser undead such as skeletons (1d8 individuals) and zombies (1d6-1 individuals). These monsters are compelled to seek to grapple nearby living creatures and drag or push them into the ghost shroom clumps.\n\nThough a group of ghost shrooms is technically a single entity, the main stalk and each subordinate stalk are given their own hit dice and hit points. Destroying a small stalk does not affect the rest of the patch, but destroying the main stalk results in the smaller stalks ceasing to attack for 1d4 rounds. Entangled creatures are still held but the per-round damage is not applied for this duration. Then, one of the remaining stalks becomes the main stalk (though its statistics do not change right away) and the patch resumes hostilities. If the ghost shroom patch survives such a confrontation, the new main stalk will gain 1 hit die per week until it reaches 4 hit dice. New small stalks can be spawned at a rate of one per month any time the main stalk has its full 4 hit dice.\n\nA ghost shroom is vulnerable to many things that affect undead, including a scroll of protection from undead for example. They can be Turned by a Cleric, with the following special effects: The main stalk is a 4 hit die creature, and the smaller stalks are 2 hit dice each. A smaller clump is outright destroyed by a successful Turn, while the main stem, if successfully Turned (but not destroyed), becomes dormant for at least 2d4 hours. As usual, apply Turning affects to the lowest hit dice first.",
+    "source": "BFRPG Field Guide Omnibus conversion",
+    "source_page": 112,
+    "hd_sort": 4.0,
+    "hde_sort": 4.0
+  },
+  {
+    "name": "Ghostcap Bloom",
+    "slug": "ghostcap-bloom-bfomnibus",
+    "armor_class": "8 [11]",
+    "hit_dice": "4 (main bush), 2 (small bush)",
+    "attacks": "Entangle (1d4/round)",
+    "special": "undead, surprise 1-3, entangle, drag 5 ft./round, turn effects by bush size",
+    "move": "0",
+    "hde": "4 (main), 2 (small)",
+    "xp": "120/30",
+    "hde_xp": "4/120 (main bush) or 2/30 (small bush)",
+    "description": "Ghostcap Blooms are animated undead bushes found growing in graveyards, former battlefields, and crypts. A main bush displays dark, verdant foliage up to a height of six feet, with fragrant blooms opening in the autumn. Up to seven small bushes up to three feet tall grow around the main bush within a 20-foot radius. Skeletons and zombies are often attracted by the sweet and musky aroma of the flowers, lingering among the bushes and ready to grapple living victims and drag them towards the main bush.\n\nRemaining still and appearing as ordinary plants, ghostcap blooms surprise on a roll of 1-3 on 1d6. Successful hits entangle targets, doing 1d4 points of damage every round. Escape is made with a successful save vs. Death, applying either a Strength or Dexterity bonus. Entangled victims are dragged five feet towards the main bush every round. Each bush, small or main, attacks independently, and any skeletons or zombies present cooperate in keeping victims within reach of the main bush.\n\nThe main bush may be Turned as a 4 HD creature. On a successful Turn, it suffers a -3 penalty to attack rolls for 2d4 turns. Small bushes are Turned as 2 HD creatures, and are always destroyed on a successful Turn.",
     "source": "BFRPG Field Guide Omnibus conversion",
     "source_page": 112,
     "hd_sort": 4.0,
@@ -9652,23 +9703,6 @@
     "source_page": 177,
     "hd_sort": 0.125,
     "hde_sort": 2.0
-  },
-  {
-    "name": "Main Bush",
-    "slug": "main-bush-bfomnibus",
-    "armor_class": "8 [11]",
-    "hit_dice": "4",
-    "attacks": "Entangle (1d3/round)",
-    "special": "undead, surprise 1-3, entangle, drag 5 ft./round, ongoing damage, turned as 4 HD",
-    "move": "0",
-    "hde": "4",
-    "xp": "120",
-    "hde_xp": "4/120",
-    "description": "Ghostcap Blooms are animated undead bushes found growing in graveyards, former battlefields, and crypts. A main bush displays dark, verdant foliage up to a height of six feet, with fragrant blooms opening in the autumn. Up to seven small bushes up to three feet tall grow around the main bush within a 20-foot radius. 1d8 skeletons and 1d6-1 zombies are often attracted by the sweet and musky aroma of the flowers, lingering among the bushes and ready to grapple living victims and drag them towards the main bush.\n\nRemaining still and appearing as an ordinary plant, the ghostcap bloom surprises on a roll of 1-3 on 1d6. Successful hits entangle targets, doing 1d4 points of damage every round. Escape is made with a successful save vs. Death, applying either a Strength or a Dexterity bonus. Entangled victims are dragged five feet towards the main bush every round. Each bush, small or main, attacks independently, and any skeletons or zombies present cooperate in keeping victims within reach of the main bush.\n\nThe main bush may be Turned as 4 HD creature. On a successful Turn, it suffers a -3 penalty to attack rolls for 2d4 turns. Small bushes are Turned as a 2 HD creature. They are always destroyed on a successful turn.",
-    "source": "BFRPG Field Guide Omnibus conversion",
-    "source_page": 112,
-    "hd_sort": 4.0,
-    "hde_sort": 4.0
   },
   {
     "name": "Mammoth",
@@ -13089,23 +13123,6 @@
     "hde_sort": 4.0
   },
   {
-    "name": "Small Bush",
-    "slug": "small-bush-bfomnibus",
-    "armor_class": "8 [11]",
-    "hit_dice": "2",
-    "attacks": "Entangle (1d3/round)",
-    "special": "undead, surprise 1-3, entangle, drag 5 ft./round, ongoing damage, destroyed if turned",
-    "move": "0",
-    "hde": "2",
-    "xp": "30",
-    "hde_xp": "2/30",
-    "description": "Ghostcap Blooms are animated undead bushes found growing in graveyards, former battlefields, and crypts. A main bush displays dark, verdant foliage up to a height of six feet, with fragrant blooms opening in the autumn. Up to seven small bushes up to three feet tall grow around the main bush within a 20-foot radius. 1d8 skeletons and 1d6-1 zombies are often attracted by the sweet and musky aroma of the flowers, lingering among the bushes and ready to grapple living victims and drag them towards the main bush.\n\nRemaining still and appearing as an ordinary plant, the ghostcap bloom surprises on a roll of 1-3 on 1d6. Successful hits entangle targets, doing 1d4 points of damage every round. Escape is made with a successful save vs. Death, applying either a Strength or a Dexterity bonus. Entangled victims are dragged five feet towards the main bush every round. Each bush, small or main, attacks independently, and any skeletons or zombies present cooperate in keeping victims within reach of the main bush.\n\nThe main bush may be Turned as 4 HD creature. On a successful Turn, it suffers a -3 penalty to attack rolls for 2d4 turns. Small bushes are Turned as a 2 HD creature. They are always destroyed on a successful turn.",
-    "source": "BFRPG Field Guide Omnibus conversion",
-    "source_page": 112,
-    "hd_sort": 2.0,
-    "hde_sort": 2.0
-  },
-  {
     "name": "Smouldergeist",
     "slug": "smouldergeist-bfomnibus",
     "armor_class": "2 [17] (m)",
@@ -13242,6 +13259,23 @@
     "hde_sort": 3.0
   },
   {
+    "name": "Snake, Green Tree",
+    "slug": "snake-green-tree-bfomnibus",
+    "armor_class": "7 [12]",
+    "hit_dice": "2",
+    "attacks": "Bite (1d6)",
+    "special": "excellent climber",
+    "move": "6",
+    "hde": "2",
+    "xp": "30",
+    "hde_xp": "2/30",
+    "description": "Green tree snakes are arboreal, non-venomous snakes reaching up to 5 feet in length. They are most at home in trees, preying on rodents, lizards, and birds. They are excellent climbers and are often found coiled around tree branches. Their bite is relatively harmless, though it may rarely cause a mild allergic reaction in some individuals.",
+    "source": "BFRPG Field Guide Omnibus conversion",
+    "source_page": 245,
+    "hd_sort": 2.0,
+    "hde_sort": 2.0
+  },
+  {
     "name": "Snake, Hoop",
     "slug": "snake-hoop-bfomnibus",
     "armor_class": "6 [13]",
@@ -13257,6 +13291,23 @@
     "source_page": 245,
     "hd_sort": 1.0,
     "hde_sort": 2.0
+  },
+  {
+    "name": "Snake, King Cobra",
+    "slug": "snake-king-cobra-bfomnibus",
+    "armor_class": "6 [13]",
+    "hit_dice": "5",
+    "attacks": "Bite (1d6+1 + poison)",
+    "special": "poison bite (save half), immune to snake poison",
+    "move": "12",
+    "hde": "6",
+    "xp": "400",
+    "hde_xp": "6/400",
+    "description": "King cobras are deadly and aggressive snakes. They use their spreading hood to warn other creatures away, and make a distinctive growling noise rather than a hiss. They can grow up to 18 feet in length and are found throughout the world’s jungles. Primarily feeding on other snakes, they will still attack humanoids when threatened.\n\nThose bitten by a king cobra must save vs. Poison or suffer 6d6 points of damage immediately, followed by another 6d6 points of damage in the following round. A successful save halves the damage. King cobras are immune to the poison of other snakes.",
+    "source": "BFRPG Field Guide Omnibus conversion",
+    "source_page": 246,
+    "hd_sort": 5.0,
+    "hde_sort": 6.0
   },
   {
     "name": "Snake, Pit Viper",
@@ -14316,23 +14367,6 @@
     "source_page": 264,
     "hd_sort": 2.0,
     "hde_sort": 2.0
-  },
-  {
-    "name": "Trachodon)",
-    "slug": "trachodon-bfomnibus",
-    "armor_class": "5 [14]",
-    "hit_dice": "12",
-    "attacks": "Tail (1d3)",
-    "special": "None",
-    "move": "18",
-    "hde": "12",
-    "xp": "2,000",
-    "hde_xp": "12/2,000",
-    "description": "These dinosaurs are members of the hadrosaurid family, sometimes called \"duck-billed\" dinosaurs. They are large animals, being 40 to 50 feet in length, and are able to go on four feet or two. Edmontosaurs are plant eaters who prefer swamp-lands and floodplains. They are shy creatures, prone to fleeing if possible; their only effective attack is to lash out with their long, heavy tails.",
-    "source": "BFRPG Field Guide Omnibus conversion",
-    "source_page": 75,
-    "hd_sort": 12.0,
-    "hde_sort": 12.0
   },
   {
     "name": "Trapper",

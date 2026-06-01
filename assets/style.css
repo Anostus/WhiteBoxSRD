@@ -273,3 +273,98 @@ sup { line-height: 0; }
 
 
 #monster-image-filters { align-self: stretch; }
+
+
+/* Quick No. Appearing generator */
+.no-appearing-widget details > summary {
+  cursor: pointer;
+  font-weight: bold;
+  color: var(--accent);
+  border: 1px solid #c7bda9;
+  background: #fffaf0;
+  padding: .7rem .85rem;
+  border-radius: 4px;
+}
+.no-appearing-widget details[open] > summary {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-bottom: .85rem;
+}
+.noapp-controls {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: .8rem 1rem;
+  align-items: end;
+  margin: .8rem 0 1rem;
+}
+.noapp-controls label {
+  display: block;
+  font-weight: bold;
+  font-size: .92rem;
+  color: var(--muted);
+}
+.noapp-controls select {
+  display: block;
+  width: 100%;
+  margin-top: .25rem;
+  padding: .45rem .5rem;
+  border: 1px solid #9d907c;
+  border-radius: 3px;
+  background: #fff;
+  color: var(--ink);
+  font-family: inherit;
+}
+.noapp-fallback-control[hidden] { display: none !important; }
+.noapp-output-card {
+  border: 1px solid #c7bda9;
+  background: #fff;
+  border-radius: 4px;
+  padding: .9rem 1rem;
+  margin-top: .75rem;
+}
+.noapp-output-card h3 { margin-top: 0; }
+.noapp-output-table td:nth-child(2) {
+  font-weight: bold;
+  white-space: nowrap;
+}
+.noapp-copyline code {
+  background: #f7f3e8;
+  border: 1px solid #c7bda9;
+  padding: .18rem .35rem;
+  white-space: normal;
+}
+
+.noapp-preset-panel {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .6rem .85rem;
+  align-items: end;
+  margin: .85rem 0 1rem;
+  padding: .8rem .9rem;
+  border: 1px solid #c7bda9;
+  border-left: 4px solid var(--accent);
+  background: #fffaf0;
+  border-radius: 4px;
+}
+.noapp-preset-panel label {
+  flex: 1 1 300px;
+  display: block;
+  font-weight: bold;
+  font-size: .92rem;
+  color: var(--muted);
+}
+.noapp-preset-panel input[type="search"] {
+  display: block;
+  width: 100%;
+  margin-top: .25rem;
+  padding: .45rem .5rem;
+  border: 1px solid #9d907c;
+  border-radius: 3px;
+  background: #fff;
+  color: var(--ink);
+  font-family: inherit;
+}
+.noapp-preset-panel .table-notes {
+  flex-basis: 100%;
+  margin: .2rem 0 0;
+}
